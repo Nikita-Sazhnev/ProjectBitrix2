@@ -1,0 +1,35 @@
+div.news-list {
+    word-wrap: break-word;
+}
+div.news-list img.preview_picture {
+    margin: 0 auto;
+}
+.news-date-time {
+    color: #486daa;
+}
+.servises {
+    display: flex;
+
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.servises-item {
+    display: flex;
+    padding: .5rem;
+    margin: 1rem;
+    flex-direction: column;
+
+    text-align: center;
+
+    border: 1px solid;
+
+    align-items: center;
+    flex-basis: 30%;
+}
+
+
+@media (max-width: 700px) {
+    .servises-item {
+        flex-basis: 100%;
+    }
+}
